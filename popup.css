@@ -1,0 +1,48 @@
+.container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.copy {
+  display: none;
+  width: 20px;
+  height: 20px;
+}
+
+.copy:hover {
+  cursor: pointer;
+}
+
+.info {
+  display: flex;
+}
+
+.ul-header {
+  display: flex;
+}
+
+#action {
+  margin-bottom: 8px;
+  border-radius: 8px;
+  height: 40px;
+  outline: none;
+  border: none;
+  background-color: rgb(4, 156, 4);
+  color: white;
+  align-self: center;
+}
+
+#action:hover {
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+#task-without-first-assessment {
+  list-style-type: none;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yandex tracker time counter</title>
+  <link rel="stylesheet" type="text/css" href="./popup.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h3>Должна быть открыта страница с задачами на одного человека</h3>
+    <button id="action">Посчитать</button>
+    <div class="info">Первоначальная оценка:&nbsp;<span id="first-assessment"></span>&nbsp;<img src="./icons/copy.png" alt="copy" class="copy">
+    </div>
+    <div class="info">Затраченное время:&nbsp;<span id="spent-time"></span>&nbsp;<img src="./icons/copy.png" alt="copy" class="copy"></div>
+    <div><span class="ul-header">Задачи без первоначальной оценки:&nbsp;<img src="./icons/copy.png" alt="copy" class="copy"></span>
+      <ul id="task-without-first-assessment"></ul>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+
+</html>
